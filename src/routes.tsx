@@ -26,7 +26,14 @@ const Routes: React.FC = () => (
           flex: 0,
           width: 20,
           height: 20
-        }
+        },
+        labelStyle: {
+          fontFamily: 'roboto_400',
+          fontSize: 11,
+          marginTop: 5
+        },
+        inactiveTintColor: colors.black,
+        activeTintColor: colors.purple
       }}
     >
       <Screen name="Following" component={Following} options={{
